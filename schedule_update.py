@@ -4,7 +4,7 @@ from bot import update
 
 
 
-schedule.every(1).minutes.do(update)
+schedule.every(5).minutes.do(update)
 
 while True:
     schedule.run_pending()
